@@ -8,11 +8,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #5D2A2C;
+    font-family: Srisakdi, sans-serif;
 }
 
 body {
-    font-family: Srisakdi, sans-serif;
+    background-color: #5D2A2C;
 }
 
 /* ----------navbar---------- */
