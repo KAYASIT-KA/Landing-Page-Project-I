@@ -1,7 +1,7 @@
 /* Add a media query for smaller screens */
 @font-face {
-    font-family: 'Srisakdi';
-    src: url('./Srisakdi/Srisakdi-Regular.ttf') format('Srisakdi');
+    font-family: Srisakdi;
+    src: url('./Srisakdi/Srisakdi-Regular.ttf');
 }
 
 * {
