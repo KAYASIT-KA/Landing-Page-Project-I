@@ -1,0 +1,446 @@
+/* Add a media query for smaller screens */
+@font-face {
+    font-family: 'Srisakdi';
+    src: url('./Srisakdi/Srisakdi-Regular.ttf') format('Srisakdi');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Srisakdi, sans-serif;
+    background-color: #5D2A2C;
+}
+
+/* ----------navbar---------- */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 5rem;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-link {
+    right: 60px;
+    margin-right: 1.5rem  ;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-size: 18px;
+}
+
+.navbar-link:hover {
+    color: #b7b7b7;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+/* ----------section-hoem---------- */
+.section-hoem .title-home {
+    color: #BABABA;
+    font-size: 6rem;
+    margin-left: 80px;
+    margin-top: 3rem;
+    letter-spacing: 2px;
+}
+
+.content-home {
+    color: #BABABA;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-left: 100px;
+    margin-right: 560px;
+    text-align: center;
+}
+
+.img-home img {
+    width: 30%;
+    margin-left: 1000px;
+    margin-top: -410px;
+}
+
+/* ----------section-menu---------- */
+.section-menu .title-menu h6 {
+    margin-top: 5rem;
+    font-size: 50px;
+    color: #BABABA;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding-left: 48%;
+}
+
+.imgs-menu {
+    padding-top: 30px;
+}
+
+.Pad_Ka_Prao_1 {
+    width: 20%;
+    margin-left: 115px;
+    
+}   
+
+.Pad_Ka_Prao_2 {
+    width: 20%;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.Pad_Ka_Prao_3 {
+    width: 20%;
+}
+
+.content-menu {
+    color: #BABABA;
+}
+
+.title-Pad_Ka_Prao_1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.content-Pad_Ka_Prao_1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -180px;
+    margin-right: 1020px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.title-Pad_Ka_Prao_2 {
+    font-size: 30px;
+    margin-top: -165.4px;
+    margin-left: 695px;
+}
+
+.content-Pad_Ka_Prao_2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -155px;
+    margin-right: 520px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.title-Pad_Ka_Prao_3 {
+    font-size: 30px;
+    margin-top: -191.5px;
+    margin-left: 1193px;
+}
+
+.content-Pad_Ka_Prao_3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -155px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* ----------section-contact---------- */
+.section-contact {
+    color: #BABABA;
+}
+
+.title-contact {
+    margin-top: 9rem;
+    font-size: 65px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.contact-img img     {
+    width: 50px;
+    display: flex;
+    padding-top: 1rem;
+    margin-left: 37%;
+}
+
+.facebook {
+    margin-top: 30px;
+}
+
+.text-contact {
+    font-size: 30px;
+    padding-left: 635px;
+    margin-top: -200px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    font-weight: 600;
+    color: #b7b7b7;
+}
+
+.text-facebook {
+    margin-top: -242px;
+}
+
+.text-line {
+    margin-top: 35px;
+}
+
+.text-phone {
+    margin-top: 28px;
+}
+
+.text-map {
+    margin-top: 29px;
+}
+
+/* ----------section-about---------- */
+.section-about {
+    color: #BABABA;
+}
+
+.title-about {
+    margin-top: 8rem;
+    font-size: 65px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.text-about {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-img img {
+    width: 49.5%;
+    margin-top: 20px;
+    margin-left: 3.5px;
+}
+
+/* ----------footer---------- */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -2px;
+    padding: 4px;
+}
+
+/* ----------Responsive---------- */
+@media only screen and (max-width: 432px) {
+    /* ----------navbar---------- */
+        .navbar-links {
+            display: none;
+            padding-top: 7px;
+            
+        }
+
+        .logo {
+            margin-left: 71px;
+        }
+    
+        .hamburger-menu {
+            display: flex;
+            padding-right: 2rem;
+        }
+    
+        .navbar.active .navbar-links {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            position: absolute;
+            top: 56px;
+            background-color: #6e6e6e;
+            z-index: 1;
+        }
+    
+        .navbar.active .navbar-links .navbar-link {
+            margin: 5px 0;
+            padding-left: 5rem;
+            margin-bottom: 15px;
+            font-size: 17px;
+        }
+
+    /* ----------section-hoem---------- */
+        .section-hoem .title-home {
+            color: #BABABA;
+            font-size: 3.5rem;
+            margin-left: 10px;
+            margin-top: 3rem;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        
+        .content-home {
+            color: #BABABA;
+            font-size: 1.3rem;
+            letter-spacing: px;
+            line-height: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+        }
+        
+        .img-home img {
+            width: 70%;
+            margin-left: 60.5px;
+            margin-top: 75px;
+        }
+    
+    /* ----------section-menu---------- */
+        .section-menu .title-menu h6 {
+            margin-top: 5rem;
+            font-size: 50px;
+            color: #BABABA;
+            letter-spacing: 1px;
+            line-height: 50px;
+            padding-left: 42%;
+        }
+
+        .imgs-menu {
+            padding-top: 30px;
+        }
+
+        .Pad_Ka_Prao_1 {
+            width: 70%;
+            margin-left: 60.5px;
+            
+        }
+
+        .Pad_Ka_Prao_2 {
+            width: 70%;
+            position: absolute;
+            padding-top: 600px;
+            margin-left: -300px;
+        }
+
+        .Pad_Ka_Prao_3 {
+            width: 70%;
+            position: absolute;
+            margin-top: 1200px;
+            margin-left: -300px;
+        }
+
+        .content-menu {
+            color: #BABABA;
+        }
+
+        .title-Pad_Ka_Prao_1 {
+            font-size: 30px;
+            margin-top: 10px;
+            margin-left: 150px;
+        }
+
+        .content-Pad_Ka_Prao_1 {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-left: -150px;
+            margin-right: 4px;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .title-Pad_Ka_Prao_2 {
+            font-size: 30px;
+            margin-top: 410px;
+            margin-left: 154px;
+            margin-right: -520px;
+        }
+
+        .content-Pad_Ka_Prao_2 {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-left: px;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .title-Pad_Ka_Prao_3 {
+            font-size: 30px;
+            margin-top: 410px;
+            margin-left: 160px;
+            margin-right: -8px;
+            
+        }
+
+        .content-Pad_Ka_Prao_3 {
+            font-size: 20px;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+    /* ----------section-contact---------- */
+        .contact-img img {
+            width: 50px;
+            display: flex;
+            padding-top: 1rem;
+            margin-left: 5%;
+        }
+
+        .text-contact {
+            font-size: 25px;
+            padding-left: 80px;
+            margin-top: -200px;
+        }
+
+        .text-facebook {
+            margin-top: -236px;
+        }
+        
+        .text-line {
+            margin-top: 37px;
+        }
+        
+        .text-phone {
+            margin-top: 35px;
+        }
+        
+        .text-map {
+            margin-top: 35px;
+        }
+    
+    /* ----------section-about---------- */
+        .about-img img {
+            width: 49.5%;
+            margin-top: 20px;
+            margin-left: 25%;
+        }
+}   
